@@ -10,7 +10,7 @@ metadata.detect_from_csv(filepath="results/base_data.csv")
 fig = get_column_plot(
     real_data=real_data,
     synthetic_data=synthetic_data,
-    column_name='Class',
+    column_name='V5',
     metadata=metadata
 )
 
